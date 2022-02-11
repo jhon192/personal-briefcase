@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 const CenterMenu = () => {
   return (
-    <div className="max-w-full h-3/4 m-10 md:px-10 py-5 rounded-3xl shadow-xl bg-gray-100">
+    <div className="max-w-full h-3/4 m-10 md:px-10 py-5 rounded-3xl shadow-xl bg-gray-100" id="centerMenu">
       <div className="md:ml-20 mx-10 my-28">
         <div className="flex justify-between">
           <p className="font-semibold text-slate-800 mb-2 md:text-4xl text-4xl md:leading-normal">

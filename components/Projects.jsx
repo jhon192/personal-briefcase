@@ -1,24 +1,39 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
-const Projects = () => {
+const Projects = ({ ProjectData }) => {
   return (
     <div className="m-10">
-      <div className="grid grid-cols-3">
-        <div className="p-10 bg-white">
-          <div className="text-center border-2 border-black ">
-            <Image
-              src="/computer.png"
-              width={200}
-              height={160}
-              alt="card-image"
-            />
+      <div className="grid md:grid-cols-3 gap-12 grid-cols-1 ">
+        {ProjectData.map((x) => (
+          <div className="p-10 bg-black rounded-md" key={x.name}>
+            <div className="text-center">
+              <img
+                src={x.img}
+                alt="card-image"
+                className="h-48 w-96 transform hover:scale-105 transition-all"
+              />
+            </div>
+            <div>
+              <h1 className="text-xl font-semibold text-blue-700 text-center mt-4 mb-4">
+                {x.name}
+              </h1>
+              <p className="text-white">{x.description}</p>
+              <div className="mt-7 text-center">
+                <a
+                  href={
+                    x.disponible? x.url : ""
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-md p-2 bg-transparent text-white border-2 border-blue-500 hover:bg-blue-500 hover:text-black transition-all"
+                >
+                  {!x.disponible? "Coming Soon" : "Ir al sitio"}
+                </a>
+              </div>
+            </div>
           </div>
-          <div>
-            <h1 className="text-xl font-semibold text-slate-700 text-center mt-4 mb-4">Movie Searcher</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad enim eveniet similique, eos excepturi adipisci quidem sed nobis magnam vel.</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
