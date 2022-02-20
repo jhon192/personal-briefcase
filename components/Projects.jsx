@@ -18,7 +18,7 @@ const Projects = ({ ProjectData }) => {
               <h1 className="text-xl font-semibold text-blue-700 text-center mt-4 mb-4">
                 {x.name}
               </h1>
-              <p className="text-white">{x.description}</p>
+              <p className="text-white whitespace-pre-wrap">{x.description}</p>
               <div className="mt-7 text-center">
                 <a
                   href={

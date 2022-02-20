@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
@@ -16,8 +17,8 @@ const CenterMenu = () => {
             and I&apos;m a Web Developer.
           </p>
           <div>
-            <Image
-              src="/computer.png"
+            <img
+              src="/pc.png"
               alt="computer"
               width={200}
               height={200}

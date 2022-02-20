@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Movie Searcher",
+    "url": "https://moviesearcherreactapp.netlify.app/",
+    "description": "Es una app web creada en Reactjs con puro Css obteniendo datos de una api de peliculas donde podemos encontrar espeficicaciones de pelicula y caracteristicas sin importar el tiempo de salida de la pelicula",
+    "img": "/cap1.png",
+    "disponible": true
+  },
+  {
+    "name": "Weather Location",
+    "url": "https://weatherlocationapp.netlify.app/",
+    "description": "Es una app web creada en Reactjs con bootstrap obteniendo datos de una api de una api del clima donde podemos ver datos como el viento, clima de hoy, etc.",
+    "img": "/cap3.png",
+    "disponible": true
+  },
+  {
+    "name": "React Translate",
+    "url": "Coming Soon",
+    "description": "Es una app web creada en Reactjs con bootstrap, esta app es un traductor personalizado creado por mi usando una api de con similitud como google translate pero de manera gratuita \n\nP.S: Aun no esta finalizada pero ya pronto",
+    "img": "/cap2.png",
+    "disponible": false
+  },
+  {
+    "name": "Rick and Morty random",
+    "url": "Coming Soon",
+    "description": "Es una app web creada en Reactjs con bootstrap obteniendo datos de una api de una api del de la gran serie animada con humor de adulto Rick and Morty \n\nP.S: Aun no esta finalizada pero ya pronto",
+    "img": "/cap4.png",
+    "disponible": false
+  }
+]

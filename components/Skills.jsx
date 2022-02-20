@@ -16,7 +16,7 @@ import {
 
 const Skills = () => {
   return (
-    <div id="panel">
+    <div>
       <div className="bg-violet-700 m-10 rounded-md">
         <div className="flex justify-center">
           <h2 className="mb-2 text-2xl font-semibold text-white">
