@@ -10,6 +10,7 @@ import {
   SiNodedotjs,
   SiPhp,
   SiReact,
+  SiSuperuser,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -17,11 +18,9 @@ import {
 const Skills = () => {
   return (
     <div>
-      <div className="bg-violet-700 m-10 rounded-md">
+      <div className="bg-blue-special m-10 rounded-2xl">
         <div className="flex justify-center">
-          <h2 className="mb-2 text-2xl font-semibold text-white">
-            Habilidades
-          </h2>
+          <h2 className="text-2xl font-semibold text-white">Habilidades</h2>
         </div>
         <div className="flex justify-center">
           <div className="grid grid-cols-3 m-10 rounded-xl shadow-lg bg-white md:w-3/6 w-2/3">
@@ -97,6 +96,9 @@ const Skills = () => {
                 <SiTailwindcss />{" "}
               </h1>
             </div>
+          </div>
+          <div>
+            <h1 className="md:text-5xl text-3xl opacity-70 hover:text-mountain-meadow-300 hover:opacity-100 transform hover:scale-125 transition-all"> <SiSuperuser/> </h1>
           </div>
         </div>
       </div>

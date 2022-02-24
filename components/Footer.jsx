@@ -3,7 +3,7 @@ import { SiGithub, SiInstagram, SiLinkedin, SiTwitter, SiWhatsapp } from "react-
 
 const Footer = () => {
   return (
-    <div className="h-28 max-w-full bg-gray-400">
+    <div className="h-28 max-w-full bg-blue-700">
       <div className="flex justify-evenly">
         <h1 className="m-10 text-2xl hover:text-blue-700 transform hover:scale-125 transition-all">
           <a

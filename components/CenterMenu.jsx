@@ -5,12 +5,12 @@ import { BsLinkedin } from "react-icons/bs";
 
 const CenterMenu = () => {
   return (
-    <div className="max-w-full h-3/4 m-10 md:px-10 py-5 rounded-3xl shadow-xl bg-gray-100" id="centerMenu">
+    <div className="max-w-full h-3/4 m-10 md:px-10 py-5 rounded-2xl shadow-xl bg-blue-special" id="centerMenu">
       <div className="md:ml-20 mx-10 my-28">
         <div className="flex justify-between">
-          <p className="font-semibold text-slate-800 mb-2 md:text-4xl text-4xl md:leading-normal">
+          <p className="font-semibold text-black mb-2 md:text-4xl text-4xl md:leading-normal">
             Hi, my name is{" "}
-            <span className="font-bold underline decoration-wavy decoration-slate-400">
+            <span className="font-bold underline decoration-wavy decoration-mountain-meadow-400">
               Jhon Garcia
             </span>{" "}
             <br />
@@ -25,12 +25,7 @@ const CenterMenu = () => {
             />
           </div>
         </div>
-        <a
-          href=""
-          className="px-2 py-1 bg-transparent text-blue-600 hover:bg-blue-600 hover:text-white font-bold border border-blue-600 hover:border-transparent"
-        >
-          know more
-        </a>
+        <br />
       </div>
     </div>
   );

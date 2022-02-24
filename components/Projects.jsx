@@ -4,9 +4,9 @@ import Image from "next/image";
 const Projects = ({ ProjectData }) => {
   return (
     <div className="m-10">
-      <div className="grid md:grid-cols-3 gap-12 grid-cols-1 ">
+      <div className="grid md:grid-cols-3 gap-12 grid-cols-1 bg-blue-special p-5 rounded-xl shadow-2xl">
         {ProjectData.map((x) => (
-          <div className="p-10 bg-black rounded-md" key={x.name}>
+          <div className={x.disponible? "p-10 bg-black rounded-md" : "p-10 bg-black rounded-md opacity-70"} key={x.name}>
             <div className="text-center">
               <img
                 src={x.img}
@@ -21,14 +21,13 @@ const Projects = ({ ProjectData }) => {
               <p className="text-white whitespace-pre-wrap">{x.description}</p>
               <div className="mt-7 text-center">
                 <a
-                  href={
-                    x.disponible? x.url : ""
-                  }
+                  href={x.disponible ? x.url : ""}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-md p-2 bg-transparent text-white border-2 border-blue-500 hover:bg-blue-500 hover:text-black transition-all"
+                  
                 >
-                  {!x.disponible? "Coming Soon" : "Ir al sitio"}
+                  {!x.disponible ? "Coming Soon" : "Ir al sitio"}
                 </a>
               </div>
             </div>

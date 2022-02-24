@@ -4,7 +4,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <section className="max-w-screen max-h-full bg-slate-700">
+    <section className="max-w-screen max-h-full bg-blue-900">
       <Component {...pageProps} />
     </section>
   );

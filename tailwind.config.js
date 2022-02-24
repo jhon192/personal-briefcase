@@ -61,6 +61,9 @@ module.exports = withAnimations({
           800: "#008C09",
           900: "#005406",
         },
+        "blue-special": {
+          DEFAULT: "#5D8BF4",
+        },
       },
     },
   },
