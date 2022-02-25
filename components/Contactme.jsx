@@ -4,7 +4,7 @@ import { ImUserTie } from "react-icons/im";
 
 const Contactme = () => {
   return (
-    <div className="m-10">
+    <div className="m-10" id="contact">
       <div className="max-w-full rounded-xl shadow-2xl bg-blue-special">
         <div className="flex justify-around items-center">
           <div>
@@ -12,7 +12,7 @@ const Contactme = () => {
               <ImUserTie />
             </h1>
           </div>
-          <div className="w-2/6 p-10">
+          <div className="md:w-2/6 md:p-10">
             <div className="p-10 bg-black rounded-md" key="x.name">
               <div className="text-center">
                 <img

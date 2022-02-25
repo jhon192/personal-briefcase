@@ -11,9 +11,10 @@
     "animated-tailwindcss": "^3.1.1",
     "next": "12.0.10",
     "next-themes": "^0.0.15",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.3.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-icons": "^4.3.1",
+    "react-reveal": "^1.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
