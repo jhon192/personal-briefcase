@@ -12,12 +12,12 @@ const CenterMenu = () => {
       <div className="md:ml-20 mx-10 my-28 md:flex justify-between flex-wrap">
         <div className="">
           <p className="font-semibold text-black mb-2 md:text-4xl text-4xl md:leading-normal">
-            Hi, my name is{" "}
+            Saludos, Soy {" "}
             <span className="font-bold underline decoration-wavy decoration-mountain-meadow-400">
               Jhon Garcia
             </span>{" "}
             <br />
-            and I&apos;m a Web Developer.
+            y soy un Web Developer.
           </p>
         </div>
         <div className="md:m-10">
