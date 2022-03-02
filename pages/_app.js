@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
     <Head>
       <link rel="shortcut icon" href="briefcase.svg" type="image/x-icon" />
       <title>Personal Briefcase</title>
+      <meta name="description" content="Personal briefcase created using next.js, tailwind and other libraries and frameworks, created by Jhon Garcia" />
     </Head>
       <Component {...pageProps} />
     </section>
