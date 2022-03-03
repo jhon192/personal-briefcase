@@ -9,6 +9,8 @@ import {
   SiWhatsapp,
 } from "react-icons/si";
 
+import { BsFilePdfFill } from "react-icons/bs";
+
 const Contactme = () => {
   return (
     <div className="m-10" id="contact">
@@ -54,6 +56,15 @@ const Contactme = () => {
                   rel="noreferrer"
                 >
                   <SiInstagram />
+                </a>
+              </h1>
+              <h1 className="md:m-10 m-3 md:text-3xl text-2xl hover:text-red-600 transform hover:scale-125 transition-all">
+                <a
+                  href="Curriculum.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsFilePdfFill />
                 </a>
               </h1>
             </div>
