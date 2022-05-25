@@ -14,6 +14,13 @@
     "disponible": true
   },
   {
+    "name": "Covid19 Statistics",
+    "url": "https://vue-covid19-statistics.netlify.app/",
+    "description": "Es una app web creada en Vuejs con TailwindCss obteniendo datos de una api que da informacion de estadisticas acerca del covid, podemos ver aqui el pais, el continente, la bandera caso nuevos de covid, etc.",
+    "img": "/cap5.png",
+    "disponible": true
+  },
+  {
     "name": "React Translate",
     "url": "Coming Soon",
     "description": "Es una app web creada en Reactjs con bootstrap, esta app es un traductor personalizado creado por mi usando una api de con similitud como google translate pero de manera gratuita \n\nP.S: Aun no esta finalizada pero ya pronto",
