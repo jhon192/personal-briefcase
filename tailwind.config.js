@@ -1,4 +1,4 @@
-const withAnimations = require("animated-tailwindcss");
+const { withAnimations } = require("animated-tailwindcss");
 
 module.exports = withAnimations({
   darkMode: "false",
