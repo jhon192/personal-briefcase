@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Covid19 Statistics",
+    "url": "https://vue-covid19-statistics.netlify.app/",
+    "description": "It's a web app that shows the latest statistics of Covid19 cases around the world. It uses the Covid19 API to fetch the data and display it in a user-friendly way. The app includes a global map with interactive markers, a search bar to filter countries, and detailed information about each country's cases, deaths, and recoveries.",
+    "img": "/cap5.png",
+    "disponible": true
+  },
+  {
+    "name": "Yoga Up",
+    "url": "https://https://yogaup.com.hk/",
+    "description": "YogaUp is a website for a yoga studio based in Hong Kong. It provides information about the studio, the classes, the teachers, and the schedule. The website includes a gallery with pictures of the studio and the classes, a blog with articles about yoga, and a contact form to get in touch with the studio.",
+    "img": "/yoga.png",
+    "disponible": true
+  },
+  {
+    "name": "La Revista Diaria",
+    "url": "https://larevistadiaria.com/",
+    "description": "La Revista Diaria is a news website that provides daily news about the Dominican Republic and the world. It includes articles about politics, economy, sports, culture, and more. The website has a clean and modern design, with a responsive layout that adapts to different screen sizes.",
+    "img": "/revista.png",
+    "disponible": true
+  },
+  {
+    "name": "Ordino Crm",
+    "url": "#",
+    "description": "It is a CRM from an American company called GreenLightExpediting, which grants and approves said permits for constructions currently in the city of New York and in its various sectors such as the Bronx, Brooklyn, etc.",
+    "img": "/ordino.png",
+    "disponible": false
+  },
+  {
+    "name": "Fifi Employee Management",
+    "url": "#",
+    "description": "It is a web app created to manage and organize all the orders of the Dominican bakery FiFi Postres, this app works with Php Laravel and uses a tailwind style, etc.",
+    "img": "/fifiadmin.png",
+    "disponible": false
+  },
+  {
+    "name": "FiFi Postres",
+    "url": "https://fifipostres.com/public/shop",
+    "description": "It is a web app to order desserts from the Dominican bakery FiFi Postres, this app works with Php Laravel and uses a tailwind style, etc.",                                  
+    "img": "/fificliente.png",
+    "disponible": true
+  }
+]
