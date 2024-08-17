@@ -1,5 +1,5 @@
 import {
-  SiAmazonaws,
+  SiAwsorganizations,
   SiAzuredevops,
   SiBootstrap,
   SiCsharp,
@@ -107,7 +107,7 @@ const Skills = () => {
             <div className="md:h-10 md:w-10 md:mx-auto my-9 h-5 w-5 m-5">
               <h1 className="md:text-5xl text-3xl opacity-70 hover:text-orange-500 hover:opacity-100 transform hover:scale-125 transition-all">
                 {" "}
-                <SiAmazonaws />{" "}
+                <SiAwsorganizations />{" "}
               </h1>
             </div>
             <div className="md:h-10 md:w-10 md:mx-auto my-9 h-5 w-5 m-5">
