@@ -29,9 +29,9 @@ const Skills = () => {
               {" "}
               <BiBrain className="md:text-5xl text-2xl text-center" />{" "}
             </h1>
-            <h1 className="md:mx-10 mx-2 md:text-5xl text-2xl">Skills</h1>
+            <h1 className="md:mx-14 mx-2 md:text-5xl text-2xl">Skills</h1>
           </div>
-          <div className="grid grid-cols-4 m-10 rounded-xl shadow-lg bg-white md:w-3/6 w-2/3">
+          <div className="grid grid-cols-4 max-[400px]:grid-cols-2 m-10 rounded-xl shadow-lg bg-white md:w-3/6 w-2/3">
             <div className="md:h-10 md:w-10 md:mx-auto my-9 h-5 w-5 m-5">
               <h1 className="md:text-5xl text-3xl opacity-70 hover:text-orange-500 hover:opacity-100 transform hover:scale-125 transition-all">
                 {" "}

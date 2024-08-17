@@ -21,7 +21,7 @@ const Projects = ({ ProjectData }) => {
             }
             key={x.name}
           >
-            <div className="text-center">
+            <div className="flex justify-center">
               <Image
                 src={x.img}
                 alt="card-image"

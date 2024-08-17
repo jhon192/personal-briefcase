@@ -50,7 +50,7 @@ const Contactme = () => {
           </div>
           <div className="md:w-2/6 md:p-10 m-1">
             <div className="p-10 bg-black rounded-md" key="x.name">
-              <div className="text-center">
+              <div className="flex justify-center">
                 <Image
                   src="/index.jpg"
                   alt="card-image"
